@@ -17,6 +17,14 @@ $ git remote -v
 
 ☛ Changing a remote repository's URL
 The git remote set-url command changes an existing remote repository URL.
-
 $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
+☛ Git reset Usage and file specific commits
+If you have modified multiple files in the repository and want to commit each file with a separate commit message:
+1. Do not use (git add .), because this will add all the modified files to the staging area
+2. If you had added all files to the staging area, use (git reset) to unstage all or (git reset <<specific-file>>)
+3. Then, use (git add <<specific-file>>) to stage it, (git commit -m "the-comment") to add the changes to your local repository, and (git push) to push to the remote repository.
+
+☛ Difference between commit and push
+Git commit adds changes to your local repository, here no connection with your remote repo .
+Git push connects to remote repo and adds your changes, so when you do pull you will get latest updated .
