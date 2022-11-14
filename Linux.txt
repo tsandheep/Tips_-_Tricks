@@ -1,0 +1,4 @@
+☛ CURL 
+Curl, short for "Client for URLs", is a command line tool for transferring data using various protocols. This tool has applications in many household products such as tablets, printers, cars, routers, etc.
+A curl is a command-line tool that helps transfer the data from the server to the client and vice-versa. It uses the following protocols, i.e., HTTP, SMTP, FTP, and POP3. etc. Curl is known to transfer multiple files at a time.
+
