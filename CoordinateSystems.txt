@@ -1,0 +1,39 @@
+I came across the following coordinate systems:
+1. Cartesian Coordinate systems
+        There is no relationship between points in cartesian coordinate systems. It is just a point on the coordinate space.
+
+2. Vector Coordinate systems - Uses degrees
+        *** A point is always with respect to the origin. 
+        *** There is always a connecteness between a point and the origin. This makes it easy to traverse around the space.
+        Ways to define vectors - r∠θ - (x,y)
+        r∠θ - magnitude and angle (degrees)
+        (x,y) - component along x, component along y 
+
+        x = r * cos(θ)
+        y = r * sin(θ)
+
+        r = √(x^2 + y^2)
+        θ = inverse of tan(y/x)
+
+        >> 2D vectors, 3D vector coordinate systems
+3. Polar Coordinate systems - Uses radians 
+        Ways to define polars - r∠θ
+        r∠θ - magnitude and angle (radians)
+
+        ** Using radians make polars different from vector coordinate systems
+        >> 3D polar coordinate systems is called Spherical Coordinate systems
+        
+        In mathematics, a spherical coordinate system is a coordinate system for three-dimensional space where the position of a point is specified by three numbers: the radial distance of that point from a fixed origin, its polar angle measured from a fixed zenith direction, and the azimuthal angle of its orthogonal projection on a reference plane that passes through the origin and is orthogonal to the zenith, measured from a fixed reference direction on that plane. It can be seen as the three-dimensional version of the polar coordinate system.
+
+        The radial distance is also called the radius or radial coordinate. The polar angle may be called colatitude, zenith angle, normal angle, or inclination angle.
+
+        When radius is fixed, the two angular coordinates make a coordinate system on the sphere sometimes called spherical polar coordinates.
+
+        The use of symbols and the order of the coordinates differs among sources and disciplines. This article will use the ISO convention[1] frequently encountered in physics:  (r, θ, φ) gives the radial distance, polar angle, and azimuthal angle.
+
+4. Complex Coordinate Systems
+5. Geographic Coordinate Systems 
+6. Spiral coordinate systems - Can be grouped into Polar Coordinate systems
+
+
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
