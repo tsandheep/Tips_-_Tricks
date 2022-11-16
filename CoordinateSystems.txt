@@ -35,5 +35,4 @@ I came across the following coordinate systems:
 5. Geographic Coordinate Systems 
 6. Spiral coordinate systems - Can be grouped into Polar Coordinate systems
 
-
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+7. Improve your skills..... every single day... Every second counts...... Every effort pays off..... TechYodha......
