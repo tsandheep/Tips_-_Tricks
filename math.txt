@@ -1,0 +1,2 @@
+☛ Collinear
+Points that lie on the same line are called collinear.
