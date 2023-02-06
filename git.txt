@@ -28,3 +28,10 @@ If you have modified multiple files in the repository and want to commit each fi
 ☛ Difference between commit and push
 Git commit adds changes to your local repository, here no connection with your remote repo .
 Git push connects to remote repo and adds your changes, so when you do pull you will get latest updated .
+
+☛ If the problem is "main and master are entirely different commit histories.", the following will work
+
+git checkout master   
+git branch main master -f    
+git checkout main  
+git push origin main -f 
