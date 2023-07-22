@@ -1,0 +1,6 @@
+Compiling C++ programs: 
+
+g++ source_file.cpp -o executable_name -std=c++11 for C++11
+g++ source_file.cpp -o executable_name -std=c++14 for C++14
+g++ source_file.cpp -o executable_name -std=c++17 for C++17
+g++ source_file.cpp -o executable_name -std=c++2a for C++20, All the features of C++20 are not yet supported. Refer to this link for feature support list in GCC.
