@@ -1,6 +1,14 @@
-Compiling C++ programs: 
+‣ Compiling C++ programs: 
 
 g++ source_file.cpp -o executable_name -std=c++11 for C++11
 g++ source_file.cpp -o executable_name -std=c++14 for C++14
 g++ source_file.cpp -o executable_name -std=c++17 for C++17
 g++ source_file.cpp -o executable_name -std=c++2a for C++20, All the features of C++20 are not yet supported. Refer to this link for feature support list in GCC.
+
+
+‣ To install boost library in Ubuntu:
+  sudo apt-get install liboost-all-dev
+
+‣ Copy the libraries to /usr/local/include to automatically include them during the compilation. Otherwise, include them manually using the -I flag.
+  g++ -I /path/to/library   this_prog.cpp -o this_output
+
