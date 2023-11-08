@@ -1,0 +1,7 @@
+Bitvise is yet another tool to ssh into another machines. 
+
+Additionally, it also supports SFTP protocol. 
+
+Secure File Transfer Protocol (SFTP) is a network protocol for securely accessing, transferring and managing large files and sensitive data. 
+
+One quick example can be, you can use this protocol to access the file system of an Ubuntu machine from a Windows machine.
