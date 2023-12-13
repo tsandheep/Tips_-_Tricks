@@ -1,0 +1,5 @@
+
+Question: Can I display an axes in Jupyter notebook in one cell and then display it again in another cell?
+
+pyplot.show() only works once. 
+To prevent it clearing, use the plt.ioff() command, and explicitly state the figure wherever you want to show the plot. 
